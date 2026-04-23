@@ -36,3 +36,29 @@ You can enjoy the elite asymmetric security (public/private key pairs) of passke
 ### The Bottom Line
 
 You don't have to trust "the cloud" or "Big Tech." By storing passkeys in a third-party manager and keeping paper recovery codes, you get the best security in the world (Passkeys) with the same reliability as your old system, and without being tied to a single device.
+
+---
+
+
+### Summary
+
+You can get the security of an asymmetric keypair without rolling over to Big Tech. Passkeys don't have to be a "locked-in" nightmare.
+
+* Google/Apple/MS/Salesforce/Samsung authenticators are data traps with no export buttons. Use a manager that supports local exports (.cxp or .json).
+* Air-gapped backups: Export your vault to a encrypted USB drive (VeraCrypt or Cryptomator)
+* "Analog" fallback: Use the recovery codes provided at setup to bypass the passkey if everything fails. You can even write them on paper.
+
+Benefits:
+
+* The website only gets the public key.
+* They have nothing to lose in a breach.
+* Your private key stays in your cross-platform vault.
+* Effective protection from phishing using near-enough looking pages.
+
+Downside:
+
+ * You need a password manager (and not the browser). But you should use one anyway - 1Password, Proton Pass, Bitwarden, NordPass, Dashlane, Keeper, etc.
+
+
+
+
