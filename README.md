@@ -21,7 +21,7 @@ You can enjoy the elite asymmetric security (public/private key pairs) of passke
 * **The digital vault backup:** You can't write Passkeys on paper. Periodically export your Password Manager vault to a USB drive (e.g., **.cxp**, **.1pux**, or **.json**). To keep this file safe from thieves, keep the USB drive otherwise disconnected and store the file inside an encrypted container using [**VeraCrypt**](https://veracrypt.io/) or [**Cryptomator**](https://cryptomator.org/).
   * **The one exception to password re-use**: Set the password for your backup vault to be the same as the master password for your Password Manager. They protect the same data, and reusing the password here ensures you won't be locked out of your backup because you forgot a secondary password you rarely use.
 * **Beware of "recovery code phishing":** Phishers are smart — they will stop trying to phish your login and start trying to phish your recovery. If you get a phone call or an email from "Support" asking you to read back a recovery code to "verify your identity," **it is a scam.**
-* **Update your offline backup:** Periodically export your Password Manager database to a secure file and make sure it includes your Passkeys. This ensures you aren't reliant on the continued access to your Password Manager database.
+* **Update your offline backup:** Periodically export your Password Manager vault to a secure file and make sure it includes your Passkeys. This ensures you aren't reliant on the continued access to your Password Manager vault.
 
 ---
 
