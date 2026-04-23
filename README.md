@@ -3,11 +3,11 @@
 
 ### Why Passkeys?
 Passkeys were designed to solve the two biggest flaws of the internet: **phishing** and **server leaks**. 
-While a password is a secret you *share* with a website (giving them something to lose), a passkey is a secret that *never leaves your device*.
+While a password is a secret you have to *share* with a website (giving them a copy to lose), a passkey uses **Asymmetric Cryptography** (your device generates a public/private key pair. The public key goes to the website, but your private key stays with you).
 
-But for many, especially security conscious users, the "convenience" of passkeys feels like a trap: trading independence for a system that locks keys inside a specific phone or a "Big Tech" cloud. 
+But for many, especially security conscious users, the "convenience" of passkeys feels like a trap: trading independence for a system that locks keys inside a specific device or a "Big Tech" cloud (Google Authenticator, Apple Passwords, Microsoft Authenticator, Samsung Pass/Wallet, Salesforce Authenticator, Windows Hello). This also applies to any authenticator app that doesn't allow local exports (Twilio Authy, Cisco Duo Mobile, Symantec VIP Access, etc.).
 
-Fortunately you don't have to choose between high-end security and personal autonomy. By using a **third-party manager**, you get the mathematical "un-hackability" of a passkey with the cross-platform freedom of a password. You own the keys; the manager just carries them for you.
+Fortunately you don't have to choose between high-end security and personal autonomy. By using a **third-party manager** that supports local exports, you get the mathematical "un-hackability" of a passkey with the cross-platform freedom of a password. You own the keys; the manager carries them for you; the local export is your fallback.
 
 ---
 
